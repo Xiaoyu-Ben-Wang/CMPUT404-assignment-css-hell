@@ -12,6 +12,19 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+
+Part I: Changes to Gutenberg HTML Files
+===============================
+* Removed `<style>` content to get rid of current CSS.
+* Added link to external css stylesheet.
+* Changed image links from local to online links
+
+
+References
+==========
+All fonts used in this assignment were sourced from https://fonts.google.com/ and are licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) or under the [APACHE LICENSE, VERSION 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+
 License/Copyright
 =================
 
@@ -22,8 +35,3 @@ repository and (C) 2013 Abram Hindle, Xiaoyu Wang visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
-Changes to Gutenberg HTML Files
-===============================
-* Removed `<style>` content to get rid of current CSS.
-* Added link to external css stylesheet.
-* Changed image links from local to online links
