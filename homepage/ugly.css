@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+body {
+  font-family: 'Festive', cursive;
+  background-image: url(res/background.jpg);
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+button {
+  background-color: #eaf2f126;
+  border: 3px solid;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #eaf5f4;
+  border-color: #f1f7f626;
+}
+
+#pfp {
+  border-radius: 50%;
+  width: 400px;
+  height: 100px;
+
+}
+
+
+
+
+#bioDetails h3 {
+  color: #ff0000;
+}
+
+.mainContainer {
+  border-radius: 50%;
+  margin: auto;
+  background-color: #76008d;
+  width: 100rem;
+  height: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid #63737e;
+  padding: 2.5rem;
+}
+
+.bioContainer{
+  margin: 0;
+  padding-top: 50px;
+  height: 10%;
+}
+.bodyContainer {
+  width: 35%;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionTitle {
+  color: rgb(0, 73, 39);
+
+}
+
+.subjectContainer h3 {
+  color: #ff6075;
+}
+.subjectContainer p,
+li {
+  color: #eeff00;
+}
+
+.sidebarList {
+  color: #eaf5f4;
+}

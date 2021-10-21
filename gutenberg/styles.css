@@ -1,0 +1,146 @@
+/* Fonts are licensed under Apache 2.0 and SIL Open Font License */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body {
+  background: #fcf5e5;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 300%;
+
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.12em;
+  word-spacing: 0.2em;
+  text-indent: 0;
+}
+h2 {
+  font-size: 175%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+h3 {
+  font-size: 150%;
+  margin-top: 2em;
+}
+h4 {
+  font-size: 120%;
+}
+h5 {
+  font-size: 110%;
+}
+hr {
+  width: 80%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+div.chapter {
+  page-break-before: always;
+  margin-top: 4em;
+}
+p, span {
+  text-indent: 1em;
+  font-family: 'Coming Soon', cursive;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+li {
+  font-family: 'Coming Soon', cursive;
+}
+
+p.poem {
+  text-indent: 0%;
+  margin-left: 10%;
+  font-size: 90%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+p.noindent {
+  text-indent: 0%;
+}
+p.center {
+  text-align: center;
+  text-indent: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+p.asterism {
+  margin-left: 25%;
+  text-indent: 0%;
+  letter-spacing: 0.12em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div.fig {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+a.pginternal {
+  font-family: 'Coming Soon', cursive;
+}
+
+span.dropcap {
+  text-indent: 1em;
+  font-family: 'Coming Soon', cursive;
+  margin:0;
+
+}
+td {
+  font-family: 'Coming Soon', cursive;
+}
+
+img{
+  width:30%;
+  border: 10px solid;
+  border-image: linear-gradient(0.375turn, #ffffff 0%, #868686 50%, #000000 100%);
+  border-image-slice: 1;
+  border-collapse: separate;
+
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12,
+.c13,
+.c14,
+.c15 {
+  font-family: monospace;
+  margin: 1em;
+}
